@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUP Film Club</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="flex flex-col min-h-screen">
+    <header>
+        <div class="bg-black h-12 w-full flex items-center">
+            <div class="max-w-[1440px] flex items-center gap-3 justify-end mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-5 fill-white">
+                    <a href="https://www.facebook.com/share/18bN3oBjy9/" target="_blank">
+                        <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/>
+                    </a>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-5 fill-white">
+                    <a href="https://www.instagram.com/bupfilmclub?igsh=MTI4bzdmc3lpOTEwYg==" target="_blank">
+                        <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                    </a>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-5 fill-white">
+                    <a href="https://www.linkedin.com/company/bup-film-club/" target="_blank">
+                        <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                    </a>
+                </svg>
+            </div>
+        </div>
+        <nav class="shadow-2xl items-center flex">
+            <div class="max-w-[1440px] w-full mx-auto flex items-center justify-between px-4">
+                <!-- Logo -->
+                <img src="./img/logo.png" alt="Film Society Logo" class="object-cover h-20">
+
+                <!-- Hamburger Icon (Mobile only) -->
+                <button id="menu-btn" class="md:hidden text-2xl text-black focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Nav Items -->
+                <div id="nav-menu" class="hidden flex-col md:flex md:flex-row gap-2 md:gap-5 absolute md:static bg-white top-30 md:top-20 left-0 w-full md:w-auto z-10 md:bg-transparent shadow md:shadow-none">
+                    <button class="bg-amber-300 font-bold py-2 px-4 border-black border-2"><a href="https://forms.gle/axnnfteuTp6aRd198" target="_blank">Join Us</a></button>
+                    <a href="./index.html" class="px-4 py-2 text-2xl hover:bg-black hover:text-white">Home</a>
+                    <a href="./team.html" class="px-4 py-2 text-2xl hover:bg-black hover:text-white">Our Team</a>
+                    <a href="./events.html" class="px-4 py-2 text-2xl hover:bg-black hover:text-white">Past Accolades</a>
+                    <a href="./index.html#contact" class="px-4 py-2 text-2xl hover:bg-black hover:text-white">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+        <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuBtn.addEventListener('click', () => {
+            if(navMenu.classList.contains('flex')){
+                navMenu.classList.remove('flex');
+            }
+            else{
+                navMenu.classList.add('flex');
+            }
+            navMenu.classList.toggle('hidden');
+        });
+    </script>
+    </header>
+    <main class="flex-grow">
+        
+    </main>
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="max-w-[1440px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <!-- Logo and Description -->
+            <div class="mb-4 md:mb-0">
+                <h2 class="text-xl font-bold">Film Society</h2>
+                <p class="text-gray-400 text-sm">Bringing Stories to Life</p>
+            </div>
+    
+            <!-- Navigation Links -->
+            <div class="flex gap-6 text-gray-300 text-sm">
+                <a href="./index.html" class="hover:text-white">Home</a>
+                <a href="./team.html" class="hover:text-white">Teams</a>
+                <a href="./events.html" class="hover:text-white">Events</a>
+                <a href="./index.html#contact" class="hover:text-white">Contact</a>
+            </div>
+    
+            <!-- Social Icons -->
+            <div class="flex gap-4 mt-4 md:mt-0">
+                <a href="https://www.facebook.com/share/18bN3oBjy9/" class="text-gray-400 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-5 fill-current">
+                        <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.8 90.7 225.9 208 240v-168h-63v-72h63v-55.2c0-62.4 37.7-96.8 93.6-96.8 27.1 0 55.4 4.9 55.4 4.9v61h-31.2c-30.8 0-40.4 19.1-40.4 38.7V256h69l-11 72h-58v168c117.3-14.1 208-116.2 208-240z"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/bupfilmclub?igsh=MTI4bzdmc3lpOTEwYg==" class="text-gray-400 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-5 fill-current">
+                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/company/bup-film-club/" class="text-gray-400 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-5 fill-current">
+                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    
+        <div class="border-t border-gray-700 mt-6 text-center text-sm text-gray-400 py-4">
+            &copy; 2025 Film Society. All rights reserved.
+        </div>
+    </footer>
+    
+</body>
+</html>
