@@ -6,6 +6,7 @@
     <title>BUP Film Club</title>
     <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="flex flex-col min-h-screen">
     <header>
@@ -65,11 +66,12 @@
     </header>
     <main class="flex-grow">
         <div class="max-w-[1440px] mx-auto mt-5 mb-5">
+            <!-- About Us -->
             <div class="grid md:grid-cols-5 grid-cols-2 gap-4">
                 <div class="col-span-2 flex flex-col content-center items-center self-center mx-auto">
-                    <h1 class="text-bold text-4xl underline mx-auto text-center">About Us</h1>
+                    <h1 class="text-bold text-4xl underline mx-auto text-center font-roboto">About Us</h1>
                     <br>
-                    <p class="text-justify">BUP Film Fest stands as a distinctive celebration, meticulously curated to honor the rich tapestry of Bangladesh's art, culture, and heritage through the cinematic medium. Hosted by Bangladesh University of Professionals (BUP), a preeminent public institution, the festival serves as a paramount platform for emerging film enthusiasts, fostering their talents and inspiring a pursuit of passion within the realm of filmmaking.</p>
+                    <p class="text-justify font-roboto">Founded in April 5, 2019, BUP Film Club is the official film society of Bangladesh University of Professionals (BUP). Driven by passion for storytelling and cinematic excellence, we aim to inspire, educate, and create a community of filmmakers and film enthusiasts. From organizing the largest student-run film festival in BUP to collaborating with global organizations, we strive to celebrate the art of cinema while pushing the boundaries of creativity.</p>
                 </div>
                 <div class="col-span-3 flex justify-end md:pr-14 md:pt-14 ">
                     <img src="./img/Cover.jpg" alt="" class="max-h-96 shadow-2xl">
@@ -77,6 +79,7 @@
             </div>
         </div>
         <div class="flex items-center justify-center min-h-1/2 max-h-1/2">
+            <!-- Slides -->
              <div class="relative w-full max-w-[1440px] overflow-hidden">
                     <!-- Slides -->
                     <div id="carousel-slides" class="flex transition-transform duration-500 ease-in-out" style="transform: translateX(0%)">
@@ -149,7 +152,7 @@
             updateCarousel(); // Initialize
         </script>
         <div class="max-w-[1440px] mx-auto mt-5">
-            <h1 class="text-bold text-4xl underline mx-auto text-center">Our Partners</h1>
+            <h1 class="text-bold text-4xl underline mx-auto text-center font-roboto">Our Partners</h1>
             <div class="flex flex-row gap-4 flex-wrap justify-center top-5 mt-5">
             <img src="./partners/UNDP Bangladesh.png" alt="" class="md:w-40 w-25 shadow-2xl rounded-lg">
             <img src="./partners/The World Bank.png" alt="" class="md:w-40 w-25 shadow-2xl rounded-lg">
@@ -176,21 +179,34 @@
             <img src="./partners/BD Cosplayers logo.png" alt="" class="md:w-40 w-25 shadow-2xl rounded-lg">
             </div>
         </div>
-        <div class="max-w-[1440px] mx-auto mt-5 mb-5 flex justify-center flex-col gap-3" id="contact">
-            <h1 class="text-bold text-4xl underline mx-auto text-center">Contact Us</h1>
-            <h2 class="text-center text-bold text-3xl">Email</h2>
-            <h3 class="text-center text-bold text-2xl">For Collaboration and Corporate Deal</h3>
-            <h4 class="text-center text-xl">bupfilmclub@gmail.com</h4>
-            <h3 class="text-center text-bold text-2xl">For Fest</h3>
-            <h4 class="text-center text-xl">bupfilmfest@gmail.com</h4>
-        </div>
+        <div id="contact" class="max-w-[1440px] mx-auto my-10 px-4">
+            <div class="bg-white shadow-xl rounded-xl p-8 flex flex-col items-center gap-6">
+                
+                <h1 class="text-4xl font-bold underline text-center font-roboto">Contact Us</h1>
+
+                <div class="text-center space-y-3">
+                <h2 class="text-2xl font-semibold text-gray-800 font-roboto">Email</h2>
+
+                <div>
+                    <h3 class="text-xl font-medium text-gray-700 font-roboto">For Collaboration and Corporate Deals</h3>
+                    <p class="text-lg text-gray-600 font-roboto">bupfilmclub@gmail.com</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-medium text-gray-700 font-roboto">For Fest</h3>
+                    <p class="text-lg text-gray-600 font-roboto">bupfilmfest@gmail.com</p>
+                </div>
+                </div>
+
+            </div>
+</div>
     </main>
     <footer class="bg-gray-900 text-white py-6">
         <div class="max-w-[1440px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
             <!-- Logo and Description -->
             <div class="mb-4 md:mb-0">
                 <h2 class="text-xl font-bold">Film Society</h2>
-                <p class="text-gray-400 text-sm">Bringing Stories to Life</p>
+                <p class="text-gray-400 text-sm">Roll Your Dreams</p>
             </div>
     
             <!-- Navigation Links -->
